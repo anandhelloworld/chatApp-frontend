@@ -4,12 +4,12 @@ import "react-toastify/dist/ReactToastify.css";
 
 const ChatContext = createContext();
 
-export const registerUserLink = "https://chatapi.onrender.com//register";
-export const loginUserLink = "https://chatapi.onrender.com//login";
-export const chatLink = "https://chatapi.onrender.com//chat";
+export const registerUserLink = "https://chatapi.onrender.com/register";
+export const loginUserLink = "https://chatapi.onrender.com/login";
+export const chatLink = "https://chatapi.onrender.com/chat";
 export const roomIdLink = "https://chatapi.onrender.com//chatRoomId";
-export const roomConversationsLink = "https://chatapi.onrender.com//roomConversations";
-export const roomAddMessageLink = "https://chatapi.onrender.com//addMessage";
+export const roomConversationsLink = "https://chatapi.onrender.com/roomConversations";
+export const roomAddMessageLink = "https://chatapi.onrender.com/addMessage";
 
 export const initialRegisterValues = {
   username: "",

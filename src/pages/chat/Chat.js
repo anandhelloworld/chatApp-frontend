@@ -26,7 +26,7 @@ import axios from "axios";
 import SingleMessage from "../../components/singleMessage/SingleMessage";
 import MsgLoader from "../../components/msgLoader/MsgLoader";
 
-const ENDPOINT = "http://localhost:8000";
+const ENDPOINT = "https://chatapi.onrender.com";
 const socket = socketIo(ENDPOINT);
 
 const Chat = () => {
